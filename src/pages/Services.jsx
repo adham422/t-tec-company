@@ -14,10 +14,10 @@ import ser10 from "../images/Artboard 10.png";
 import ser11 from "../images/Artboard 11.png";
 const servicesData = [
   {
-    title_ar: "إنشاء متجر إلكتروني احترافي",
+    title_ar: "إنشاء متجر إلكتروني ",
     title_en: "Professional E-commerce Store",
-    description_ar: "تصميم وتطوير متجر إلكتروني متكامل بأحدث التقنيات.",
-    description_en: "Designing and developing a complete modern e-commerce store.",
+    description_ar: "تصميم وتطوير متجر إلكتروني.",
+    description_en: "Designing and developing an e-commerce store.",
     
     details_ar: `نختصر عليك المشوار ونجهز لك متجرك في سلة من الألف للياء.
     
