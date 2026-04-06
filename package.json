@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adham422.github.io/my_company_website",
+  "homepage": "https://adham422.github.io/t-tec-company",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
