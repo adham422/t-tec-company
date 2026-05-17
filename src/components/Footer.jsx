@@ -4,12 +4,12 @@ import React from "react";
 export default function Footer({ lang = "en", dark = false }) {
   const text = {
     ar: {
-      company: "Theme-Tec for Programming",
+      company: "Codeix for Programming",
       feature1: "أفضل الحلول البرمجية الحديثة",
       rights: "© 2026 جميع الحقوق محفوظة.",
     },
     en: {
-      company: "Theme-Tec for Programming",
+      company: "Codeix for Programming",
       feature1: "Best modern programming solutions",
       rights: "© 2026 All Rights Reserved.",
     },

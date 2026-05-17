@@ -12,6 +12,7 @@ import ser8 from "../images/Artboard 8.png";
 import ser9 from "../images/Artboard 9.png";
 import ser10 from "../images/Artboard 10.png";
 import ser11 from "../images/Artboard 11.png";
+import workVideo from "../images/code.jfif";
 const servicesData = [
   {
     title_ar: "إنشاء متجر إلكتروني ",
@@ -40,7 +41,7 @@ We ensure a smooth and fast user experience across all devices.
 Our goal is to help you launch and start selling immediately with zero hassle.`,
     
     image: ser1,
-    video: "https://www.youtube.com/embed/1hHzeRxnpa8",
+    video: workVideo,
     icon: "🛒",
   },
   
@@ -67,7 +68,7 @@ Optimized for websites, apps, and social media platforms.
 Our goal is to give your business a strong and trustworthy first impression.`,
     
     image: ser2,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "🎨",
   },
   
@@ -94,7 +95,7 @@ We organize category visuals to enhance browsing experience.
 We help turn visitors into actual buyers.`,
     
     image: ser3,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "🖼️",
   },
   
@@ -121,7 +122,7 @@ Improve your Google visibility without paid ads.
 Help you reach new customers organically and consistently.`,
     
     image: ser4,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "📈",
   },
   
@@ -148,7 +149,7 @@ Make your store completely unique.
 Focus on both design quality and user experience.`,
     
     image: ser5,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "💻",
   },
   
@@ -175,7 +176,7 @@ Add interactivity to keep users engaged longer.
 All aimed at increasing your sales.`,
     
     image: ser6,
-    video: "https://www.youtube.com/embed/eaDug7uG6Ik",
+    video: workVideo,
     icon: "⚙️",
   },
   
@@ -202,7 +203,7 @@ Perfect for B2B and partnerships.
 Helps you build trust with big clients.`,
     
     image: ser7,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "📄",
   },
   
@@ -229,7 +230,7 @@ Convert engagement into real sales.
 Keep your accounts working for you 24/7.`,
     
     image: ser8,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "📱",
   },
   
@@ -256,54 +257,54 @@ Make your link simple and memorable.
 Boost your brand credibility significantly.`,
     
     image: ser9,
-    video: "https://www.youtube.com/embed/v-FZHW4zQuU",
+    video: workVideo,
     icon: "🌐",
   },
   {
-  title_ar: "مشاريع طلابية",
-  title_en: "Student Assignments",
-  description_ar: "تنفيذ ومساعدة في المشاريع والواجبات.",
-  description_en: "Helping with assignments and academic tasks.",
-
-  details_ar: `بنساعدك في تنفيذ الواجبات والمشاريع الدراسية بشكل احترافي.
+    title_ar: "مشاريع طلابية",
+    title_en: "Student Assignments",
+    description_ar: "تنفيذ ومساعدة في المشاريع والواجبات.",
+    description_en: "Helping with assignments and academic tasks.",
+    
+    details_ar: `بنساعدك في تنفيذ الواجبات والمشاريع الدراسية بشكل احترافي.
 نشرح لك الفكرة قبل التنفيذ عشان تفهم مش تحفظ.
 نلتزم بالمواعيد النهائية للتسليم بدون تأخير.
 نغطي مجالات مختلفة زي البرمجة والتقارير والعروض.
 هدفنا إنك تسلم شغلك بأعلى جودة وتفهمه كمان.`,
-
-  details_en: `We help you complete assignments and academic tasks professionally.
+    
+    details_en: `We help you complete assignments and academic tasks professionally.
 We explain the concept before execution so you truly understand it.
 We always meet deadlines without delays.
 We cover multiple fields like programming, reports, and presentations.
 Our goal is to help you submit high-quality work while actually learning.`,
-
-  image: ser10,
-  video: "https://www.youtube.com/embed/v-FZHW4zQuU",
-  icon: "📚",
-},
-
-{
-  title_ar: "مشاريع التخرج",
-  title_en: "Graduation Projects",
-  description_ar: "تنفيذ مشاريع التخرج باحتراف.",
-  description_en: "Professional graduation project development.",
-
-  details_ar: `بننفذ معاك مشروع التخرج من الفكرة لحد التسليم.
+    
+    image: ser10,
+    video: workVideo,
+    icon: "📚",
+  },
+  
+  {
+    title_ar: "مشاريع التخرج",
+    title_en: "Graduation Projects",
+    description_ar: "تنفيذ مشاريع التخرج باحتراف.",
+    description_en: "Professional graduation project development.",
+    
+    details_ar: `بننفذ معاك مشروع التخرج من الفكرة لحد التسليم.
 نساعدك في اختيار فكرة قوية ومناسبة لسوق العمل.
 نبرمج ونصمم المشروع بشكل احترافي وقابل للتطوير.
 نوفر شرح كامل + عرض تقديمي (Presentation) جاهز.
 هدفنا إن مشروعك يطلع بشكل يبهّر الدكاترة ويخدمك بعد التخرج.`,
-
-  details_en: `We help you build your graduation project from idea to final delivery.
+    
+    details_en: `We help you build your graduation project from idea to final delivery.
 We assist in choosing a strong idea relevant to the job market.
 We develop and design the project professionally and scalable.
 We provide full explanation plus a ready-to-use presentation.
 Our goal is to make your project stand out and benefit you after graduation.`,
-
-  image: ser11,
-  video: "https://www.youtube.com/embed/alxSqW_05eM",
-  icon: "🎓",
-},
+    
+    image: ser11,
+    video: workVideo,
+    icon: "🎓",
+  },
 ];
 
 const Services = ({ lang = "ar", dark = true }) => {

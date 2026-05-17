@@ -47,7 +47,7 @@ export default function Header({ lang, setLang, dark, setDark }) {
       {/* Desktop: Logo أول الهيدر */}
       {!isMobile && (
         <div style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
-          {lang === "ar" ? "Theme-Tec" : "Theme-Tec"}
+          {lang === "ar" ? "Codeix" : "Codeix"}
         </div>
       )}
 
@@ -103,7 +103,7 @@ export default function Header({ lang, setLang, dark, setDark }) {
             flex: 1,
           }}
         >
-          {lang === "ar" ? "Theme-Tec" : "Theme-Tec"}
+          {lang === "ar" ? "Codeix" : "Codeix"}
         </div>
       )}
 

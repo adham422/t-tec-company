@@ -1,13 +1,12 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import imgcode from "../images/code.jfif";
 
 const ServicesDetails = ({ lang = "ar", dark = true }) => {
   const location = useLocation();
   const navigate = useNavigate();
-
   const service = location.state?.service;
 
-  // لو دخل مباشر بدون data
   if (!service) {
     return (
       <div style={{ textAlign: "center", padding: "60px" }}>
@@ -26,7 +25,6 @@ const ServicesDetails = ({ lang = "ar", dark = true }) => {
     );
   }
 
-  // تحديد اللغة بشكل نظيف
   const isArabic = lang === "ar";
 
   const title = isArabic
@@ -48,35 +46,33 @@ const ServicesDetails = ({ lang = "ar", dark = true }) => {
   return (
     <div className={`service-details ${dark ? "dark" : "light"}`}>
 
-      {/* ===== ميديا (فيديو أو صورة) ===== */}
-      <div className="service-media">
-        {service.video ? (
-          <iframe
-            width="100%"
-            height="400"
-            src={service.video}
-            title="Service Video"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        ) : (
-          <img src={service.image} alt={title} />
-        )}
+      {/* صورة ثابتة */}
+      <div
+        className="service-media"
+        style={{
+          width: "100%",
+          aspectRatio: "16/9",
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src={imgcode}
+          alt={title}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            display: "block",
+          }}
+        />
       </div>
 
-      {/* ===== العنوان ===== */}
       <h1 className="service-title">{title}</h1>
-
-      {/* ===== الوصف القصير ===== */}
       <p className="service-short">{shortDesc}</p>
-
-      {/* ===== الوصف الطويل ===== */}
       <p className="service-description">{longDesc}</p>
 
-      {/* ===== زر واتساب ===== */}
       <a
-        href={`https://wa.me/+201015087280?text=${encodeURIComponent(
+        href={`https://wa.me/+201027027724?text=${encodeURIComponent(
           whatsappMsg
         )}`}
         target="_blank"

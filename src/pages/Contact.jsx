@@ -20,7 +20,7 @@ export default function Contact({ lang = "ar", dark = true }) {
 
   const t = lang === "ar" ? text.ar : text.en;
 
-  const whatsappNumber = "+201015087280";
+  const whatsappNumber = "+201027027724";
   const defaultMessage = "Hello, In KingDom For Programming, We will reply within 24 hours";
 
   const openWhatsApp = (msg) => {
@@ -31,8 +31,8 @@ export default function Contact({ lang = "ar", dark = true }) {
   const socialLinks = [
     { icon: FaWhatsapp, link: `https://wa.me/${whatsappNumber}`, color: "#25D366" },
     { icon: FaYoutube, link: "https://www.youtube.com/@adhamhashem5303", color: "#FF0000" },
-    { icon: FaEnvelope, link: `mailto:hashemadham64@gmail.com`, color: "#0EA5E9" },
-    { icon: FaLinkedin, link: "https://www.linkedin.com/in/adham-hashem-b39272239/", color: "#0A66C2" }
+    { icon: FaEnvelope, link: `mailto:codeixcompany@gmail.com`, color: "#0EA5E9" },
+    { icon: FaLinkedin, link: "https://www.linkedin.com/company/codeix/?viewAsMember=true", color: "#0A66C2" }
   ];
 
   return (

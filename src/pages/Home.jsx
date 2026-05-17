@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import heroImg from "../images/logo.png";
+import heroImg from "../images/logo.jpeg";
 
 export default function Home({ lang = "en", dark = false }) {
   const content = {
@@ -115,7 +115,7 @@ export default function Home({ lang = "en", dark = false }) {
             style={{
               display: "grid",
               gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr",
-              gap: "8px",
+              gap: "26px",
               color: "#3b82f6",
               fontWeight: 500,
             }}
